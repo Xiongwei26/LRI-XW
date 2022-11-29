@@ -16,7 +16,7 @@ Install python3 for running this code. And these packages should be satisfied:
 ## Feature Acquisition
 [iFeature](https://github.com/Superzchen/iFeature)
 
-##CCC analysis tools
+## CCC analysis tools
 [cellphonedb](https://github.com/Teichlab/cellphonedb)
 [NATMI](https://github.com/asrhou/NATMI)
 
