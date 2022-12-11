@@ -23,5 +23,5 @@ Install python3 for running this code. And these packages should be satisfied:
 ## Usage
 To run the model, default 5 fold cross validation
 ```
-python code/LRI-CellSignal.py
+python code/CellSignal.py
 ```
