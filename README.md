@@ -21,7 +21,16 @@ Install python3 for running this code. And these packages should be satisfied:
 [NATMI](https://github.com/asrhou/NATMI)
 
 ## Usage
-To run the model, default 5 fold cross validation
+first step, To run the model, default 5 fold cross validation，obtain LRI pair.
 ```
 python code/CellConNet.py
 ```
+the second step, The data format for processing cancer types is /example/xxx.csv .
+
+the third step, Run three calculation methods[(cell expression)(expression product)(expression thresholding)].
+```
+python example/The cell expression calculation method code.py
+python example/The expression product calculation method code.py
+python example/The expression thresholding calculation method code.py
+```
+the final step, the three point estimation method is used to combine the results of three methods, the three point estimation method are detailed in the paper.
