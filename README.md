@@ -1,7 +1,8 @@
 ## Overview
-<center>
-<img src="overview_CellConNet.png" alt="Alt Text" width="600" height="400">
-</center>
+<div style="text-align: center;">
+  <img src="overview_CellConNet.png" alt="Alt Text">
+</div>
+
 ## Data
 Data is available at [uniprot](https://www.uniprot.org/), [GEO](https://www.ncbi.nlm.nih.gov/geo/).
 
