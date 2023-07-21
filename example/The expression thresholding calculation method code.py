@@ -49,4 +49,6 @@ for i in range(0, 7):
             f.write(str(SUM))
             f.write('\n')
         f.close()
-print('-----------------------End of calculation-------------------------')
+explain = "The result.csv file indicates that 0 represents the Melanoma cancer cells,\n1 represents the T cells,\n2 represents the B cells,\n3 represents the Macrophages,\n4 represents the Endothelial cells,\n5 represents the CAFs,\n6 represents the NK cells.\nFor example: 12_xxx represents the communication between T cells and B cells, and xxx is the calculated communication strength."
+print('------------------End of calculation---------------------------')
+print(explain)
