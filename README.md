@@ -43,7 +43,7 @@ python example/The expression thresholding calculation method code.py
 ```
 The final step, the three point estimation method is used to combine the results of three methods, the three point estimation method are detailed in the paper.
 
-## Python runtime environment
+## Python Runtime Environment
 The experiments were run on a machine with an AMD EPYC 7302 CPU, a GeForce RTX 2080 Ti and 256GB RAM on Ubuntu 20.04.4 LTS operating system.
 If the user uses the specified LRI database,it will be able to run on a personal computer,Approximately 10MB of memory and 100s of time are required.
 
