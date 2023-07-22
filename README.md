@@ -28,8 +28,10 @@ Install python3 for running this code. And these packages should be satisfied:
 [NATMI](https://github.com/asrhou/NATMI)
 
 ## Usage
-First, run the model, the default 5 fold cross-validation, get LRI pairs. Or the user can user-specified LRI database directly, skip this step to the third step.```
+First, run the model, the default 5 fold cross-validation, get LRI pairs. Or the user can user-specified LRI database directly, skip this step to the third step.
+```
 python code/CellConNet.py
+
 ```
 The second step, The data format for processing cancer types is /example/xxx.csv .
 
