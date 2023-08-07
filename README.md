@@ -1,6 +1,6 @@
 ## Overview
 <div style="text-align: center;">
-  <img src="overview_CellConNet.png" alt="Alt Text">
+  <img src="overview_CellDialog.png" alt="Alt Text">
 </div>
 
 ## Data
@@ -30,7 +30,7 @@ Install python3 for running this code. And these packages should be satisfied:
 ## Usage
 First, run the model, the default 5 fold cross-validation, get LRI pairs. Or the user can user-specified LRI database directly, skip this step to the third step.
 ```
-python code/CellConNet.py
+python code/CellDialog.py
 
 ```
 The second step, The data format for processing cancer types is /example/xxx.csv .
