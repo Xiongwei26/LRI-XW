@@ -25,8 +25,9 @@ Install python3 for running this code. And these packages should be satisfied:
 
 ## CCC analysis tools
 [cellphonedb](https://github.com/Teichlab/cellphonedb),
-[NATMI](https://github.com/asrhou/NATMI)
-
+[NATMI](https://github.com/asrhou/NATMI),
+[iTALK](https://github.com/Coolgenome/iTALK),
+[CellChat](https://github.com/sqjin/CellChat)
 ## Usage
 First, run the model, the default 5 fold cross-validation, get LRI pairs. Or the user can user-specified LRI database directly, skip this step to the third step.
 ```
