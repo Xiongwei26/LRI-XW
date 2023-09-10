@@ -34,7 +34,7 @@ Install python3 for running this code. And these packages should be satisfied:
 python code/CellDialog.py
 
 ```
-2. The second step, Run the three-point estimation method, including [(cell expression)(expression product)(expression thresholding)]. (Note: the user-specified database only needs to replace the LRI.csv file and the corresponding format in the file.)
+2. The second step, Run **the three-point estimation method**, including [(cell expression)(expression product)(expression thresholding)]. (Note: the user-specified database only needs to replace the **LRI.csv** file and the corresponding format in the file.)
 - Ligand-Receptor Interactions ：The interaction data should be represented as a two-column table, with the **first column** containing **ligands** and the **second column** containing **receptors** (as in the following example). 
 
 |Ligand|Receptor|
