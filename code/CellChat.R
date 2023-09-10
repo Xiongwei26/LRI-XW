@@ -1,7 +1,7 @@
 library(CellChat)
 library(patchwork)
 
-1w1 = read.csv('D:/cellchat/Breast1.csv',header=TRUE,row.names="cell",sep = ",")
+w1 = read.csv('D:/cellchat/Breast1.csv',header=TRUE,row.names="cell",sep = ",")
 w2 = read.csv('D:/cellchat/Breast2.csv',header=TRUE,row.names="cell",sep = ",")
 a = unique(w1$cell)
 w = normalizeData(w1)
