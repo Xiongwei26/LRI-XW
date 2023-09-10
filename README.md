@@ -29,17 +29,36 @@ Install python3 for running this code. And these packages should be satisfied:
 [iTALK](https://github.com/Coolgenome/iTALK),
 [CellChat](https://github.com/sqjin/CellChat)
 ## Usage
-First, run the model, the default 5 fold cross-validation, get LRI pairs. Or the user can user-specified LRI database directly, skip this step to the second step.
+1. First, run the model, the default 5 fold cross-validation, get LRI pairs. Or the user can user-specified LRI database directly, skip this step to the second step.
 ```
 python code/CellDialog.py
 
 ```
-The second step, Run the three-point estimation method, including [(cell expression)(expression product)(expression thresholding)]. (Note: the user-specified database only needs to replace the LRI.csv file and the corresponding format in the file.)
+2. The second step, Run the three-point estimation method, including [(cell expression)(expression product)(expression thresholding)]. (Note: the user-specified database only needs to replace the LRI.csv file and the corresponding format in the file.)
+- Ligand-Receptor Interactions ：The interaction data should be represented as a two-column table, with the **first column** containing **ligands** and the **second column** containing **receptors** (as in the following example). 
+
+|Ligand|Receptor|
+|-:|:-|
+|LIGAND1|RECEPTOR1|
+|LIGAND2|RECEPTOR2|
+|LIGAND3|RECEPTOR2|
+|LIGAND4|RECEPTOR3|
+|LIGAND4|RECEPTOR4|
+|...|...|...|
+
+- scRNA-seq data ：Each column is a normalised gene/protein expression profile of a cell type or an individual cell. An example snapshot of the abundance matrix is shown below.
+
+||cell_type1|cell_type2|cell_type3|...|
+|-:|:-:|:-:|:-:|:-|
+|**Gene1**|0.58|3.86|0.55|...|
+|**Gene2**|1.23|6.2|8.52|...|
+|**Gene3**|0|82.01|66.6|...|
+|...|...|...|...|...|
 ```
 python example/The three-point estimation method.py
 
 ```
-Finally, output the strength of cell-cell communication.
+3. Finally, output the strength of cell-cell communication.
 
 ## Hardware Environment
 This code was run on a computer with the following specifications:
