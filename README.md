@@ -29,20 +29,17 @@ Install python3 for running this code. And these packages should be satisfied:
 [iTALK](https://github.com/Coolgenome/iTALK),
 [CellChat](https://github.com/sqjin/CellChat)
 ## Usage
-First, run the model, the default 5 fold cross-validation, get LRI pairs. Or the user can user-specified LRI database directly, skip this step to the third step.
+First, run the model, the default 5 fold cross-validation, get LRI pairs. Or the user can user-specified LRI database directly, skip this step to the second step.
 ```
 python code/CellDialog.py
 
 ```
-The second step, The data format for processing cancer types is /example/xxx.csv .
+The second step, Run the three-point estimation method, including [(cell expression)(expression product)(expression thresholding)]. (Note: the user-specified database only needs to replace the LRI.csv file and the corresponding format in the file.)
+```
+python example/The three-point estimation method.py
 
-The third step, Run three calculation methods[(cell expression)(expression product)(expression thresholding)]. (Note: the user-specified database only needs to replace the LRI.csv file and the corresponding format in the file.)
 ```
-python example/The cell expression calculation method code.py
-python example/The expression product calculation method code.py
-python example/The expression thresholding calculation method code.py
-```
-The final step, the three point estimation method is used to combine the results of three methods, the three point estimation method are detailed in the paper.
+Finally, output the strength of cell-cell communication.
 
 ## Hardware Environment
 This code was run on a computer with the following specifications:
