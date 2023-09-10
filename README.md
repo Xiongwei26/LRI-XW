@@ -46,15 +46,8 @@ python code/CellDialog.py
 |LIGAND4|RECEPTOR4|
 |...|...|...|
 
-- scRNA-seq data ：Each column is a normalised gene/protein expression profile of a cell type or an individual cell. An example snapshot of the abundance matrix is shown below.
-
-||cell_type1|cell_type2|cell_type3|...|
-|-:|:-:|:-:|:-:|:-|
-|**Gene1**|0.58|3.86|0.55|...|
-|**Gene2**|1.23|6.2|8.52|...|
-|**Gene3**|0|82.01|66.6|...|
-|...|...|...|...|...|
 ```
+
 python example/The three-point estimation method.py
 
 ```
