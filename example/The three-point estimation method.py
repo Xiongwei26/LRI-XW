@@ -241,5 +241,5 @@ df.index.name = 'cell_type'
 df.to_csv(r"melanoma\melanoma_case_study.csv", index=True)
 
 print("-----CellDialog Run Completed----")
-print(' Time: {}秒, mem: {}MB'.format((time() - itime), psutil.Process(os.getpid()).memory_info().rss / 1024 / 1024))
+# print(' Time: {}秒, mem: {}MB'.format((time() - itime), psutil.Process(os.getpid()).memory_info().rss / 1024 / 1024))
 plt.show()
