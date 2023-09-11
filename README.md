@@ -29,6 +29,15 @@ Install python3 for running this code. And these packages should be satisfied:
 [iTALK](https://github.com/Coolgenome/iTALK),
 [CellChat](https://github.com/sqjin/CellChat)
 ## Usage
+* scRNA-seq data: Each column is a normalised gene/protein expression profile of a cell type or an individual cell. An example snapshot of the abundance matrix is shown below.
+
+||cell_type_0|cell_type_1|cell_type_2|...|
+|-:|:-:|:-:|:-:|:-|
+|**Gene1**|1.56|2.84|53|...|
+|**Gene2**|13|3.2|42.4|...|
+|**Gene3**|0.245|0|0.66|...|
+|...|...|...|...|...|
+
 1. First, run the model, the default 5 fold cross-validation, get LRI pairs. Or the user can user-specified LRI database directly, skip this step to the second step.
 ```
 python code/CellDialog.py
