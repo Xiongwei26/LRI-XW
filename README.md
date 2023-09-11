@@ -24,7 +24,7 @@ Install python3 for running this code. And these packages should be satisfied:
 [iFeature](https://github.com/Superzchen/iFeature)
 
 ## Cell-cell communication tools for comparative analysis
-[cellphonedb](https://github.com/Teichlab/cellphonedb),
+[CellPhoneDB](https://github.com/Teichlab/cellphonedb),
 [NATMI](https://github.com/asrhou/NATMI),
 [iTALK](https://github.com/Coolgenome/iTALK),
 [CellChat](https://github.com/sqjin/CellChat)
