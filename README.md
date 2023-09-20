@@ -29,7 +29,7 @@ Install python3 for running this code. And these packages should be satisfied:
 [iTALK](https://github.com/Coolgenome/iTALK),
 [CellChat](https://github.com/sqjin/CellChat)
 ## Usage
-* scRNA-seq data: Each column is a normalised gene/protein expression profile of a cell type or an individual cell. An example snapshot of the abundance matrix is shown below.
+* scRNA-seq data: Each column is a normalised gene/protein expression profile of a cell type or an individual cell. An example snapshot of the abundance matrix is shown below. And the scRNA-seq data was processed by  code/Processing_scRNA-seq_data.py
 
 ||cell_type_0|cell_type_1|cell_type_2|...|
 |-:|:-:|:-:|:-:|:-|
