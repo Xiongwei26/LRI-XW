@@ -76,8 +76,8 @@ However, the minimal requirements for running this protocol are:
 * Storage: At least 10GB available
 
 ## CCC tool computational time and memory analysis.
-|123456678|
-|-:|:-|
+
+|-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-|
 |LIGAND1|RECEPTOR1|LIGAND1|RECEPTOR1|LIGAND1|RECEPTOR1|LIGAND1|RECEPTOR1|
 |LIGAND2|RECEPTOR2|LIGAND2|RECEPTOR2|LIGAND2|RECEPTOR2|LIGAND2|RECEPTOR2|
 |LIGAND3|RECEPTOR2|LIGAND3|RECEPTOR2|LIGAND3|RECEPTOR2|LIGAND3|RECEPTOR2|
