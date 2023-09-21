@@ -80,6 +80,6 @@ However, the minimal requirements for running this protocol are:
 
 ||CellDialog|CellPhoneDB|NATMI|iTALK|CellChat|CellComNet|CellEnBoost|
 |-:|:-:|:-:|:-:|:-:|:-:|:-:|:-|
-|Time(S)|194.72|85.56|35.22|10.31|183.04|1366.07|4104.3|
-|Memory(MB)|164.89|387.64|102.7|724.42|1186.59|166.65|186.82|
+|Time (S)|194.72|85.56|35.22|10.31|183.04|1366.07|4104.3|
+|Memory (MB)|164.89|387.64|102.7|724.42|1186.59|166.65|186.82|
 
