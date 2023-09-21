@@ -27,7 +27,9 @@ Install python3 for running this code. And these packages should be satisfied:
 [CellPhoneDB](https://github.com/Teichlab/cellphonedb),
 [NATMI](https://github.com/asrhou/NATMI),
 [iTALK](https://github.com/Coolgenome/iTALK),
-[CellChat](https://github.com/sqjin/CellChat)
+[CellChat](https://github.com/sqjin/CellChat),
+[CellComNet](https://github.com/plhhnu/CellComNet),
+[CellEnBoost](https://github.com/plhhnu/CellEnBoost)
 ## Usage
 * scRNA-seq data: Each column is a normalised gene/protein expression profile of a cell type or an individual cell. An example snapshot of the abundance matrix is shown below. And the scRNA-seq data was processed by  code/Processing_scRNA-seq_data.py
 
