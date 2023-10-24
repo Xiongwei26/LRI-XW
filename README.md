@@ -7,10 +7,9 @@
 Data is available at [uniprot](https://www.uniprot.org/), [GEO](https://www.ncbi.nlm.nih.gov/geo/).
 
 ## Package Environment
-Install python3 for running this code. And these packages should be satisfied:
-* tensorflow == 2.5.0
-* keras == 2.7.0
-* pandas == 1.1.4
+Install Python 3.9.15 for running this code. And these packages should be satisfied:
+* seaborn == 0.12.0
+* pandas == 1.5.3
 * numpy == 1.19.5
 * scikit-learn == 1.0.1
 * matplotlib == 0.1.5
@@ -30,6 +29,11 @@ Install python3 for running this code. And these packages should be satisfied:
 [CellChat](https://github.com/sqjin/CellChat),
 [CellComNet](https://github.com/plhhnu/CellComNet),
 [CellEnBoost](https://github.com/plhhnu/CellEnBoost)
+
+## Basic Tutorial
+See a [Basic tutorial](https://github.com/Xwhut/CellDialog/blob/main/Basic_Tutorial.ipynb) how to Use a Cell-Cell Communication Analysis Computing Framework Based on Ligand Receptor and Single Cell RNA Sequencing Data (CellDialog).
+The tutorial with the test data takes minutes to complete!  
+The following is also a brief introduction to usage.
 ## Usage
 * scRNA-seq data: Each column is a normalised gene/protein expression profile of a cell type or an individual cell. An example snapshot of the abundance matrix is shown below. And the scRNA-seq data was processed by  code/Processing_scRNA-seq_data.py
 
