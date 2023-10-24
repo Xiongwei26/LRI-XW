@@ -22,6 +22,7 @@ Install Python 3.9.15 for running this code. And these packages should be satisf
 ## Feature Acquisition
 [iFeature](https://github.com/Superzchen/iFeature)
 
+
 ## Cell-cell communication tools for comparative analysis
 [CellPhoneDB](https://github.com/Teichlab/cellphonedb),
 [NATMI](https://github.com/asrhou/NATMI),
@@ -30,10 +31,14 @@ Install Python 3.9.15 for running this code. And these packages should be satisf
 [CellComNet](https://github.com/plhhnu/CellComNet),
 [CellEnBoost](https://github.com/plhhnu/CellEnBoost)
 
+
+
 ## Basic Tutorial
 See a [Basic tutorial](https://github.com/Xwhut/CellDialog/blob/main/Basic_Tutorial.ipynb) how to Use a Cell-Cell Communication Analysis Computing Framework Based on Ligand Receptor and Single Cell RNA Sequencing Data (CellDialog).
 The tutorial with the test data takes minutes to complete!  
-The following is also a brief introduction to usage.
+The following is also a brief introduction to Usage.
+
+
 ## Usage
 * scRNA-seq data: Each column is a normalised gene/protein expression profile of a cell type or an individual cell. An example snapshot of the abundance matrix is shown below. And the scRNA-seq data was processed by  code/Processing_scRNA-seq_data.py
 
