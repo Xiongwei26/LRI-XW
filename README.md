@@ -38,7 +38,6 @@ See a [Basic tutorial](https://github.com/Xwhut/CellDialog/blob/main/Basic_Tutor
 The tutorial with the test data takes minutes to complete!  
 The following is also a brief introduction to Usage.
 
-
 ## Usage
 * scRNA-seq data: Each column is a normalised gene/protein expression profile of a cell type or an individual cell. An example snapshot of the abundance matrix is shown below. And the scRNA-seq data was processed by  code/Processing_scRNA-seq_data.py
 
@@ -69,7 +68,7 @@ python code/CellDialog.py
 
 ```
 
-python example/The three-point estimation method.py
+python example/The_three-point_estimation_method.py
 
 ```
 3. Finally, output the strength of cell-cell communication.
