@@ -4,8 +4,10 @@
 </div>
 
 ## Data
-Data is available at [uniprot](https://www.uniprot.org/), [GEO](https://www.ncbi.nlm.nih.gov/geo/).
-
+Ligand-receptor data is available at [uniprot](https://www.uniprot.org/), [GEO](https://www.ncbi.nlm.nih.gov/geo/).
+单细胞RNA测序数据可在GEO数据库下载
+Single-cell RNA sequencing data can be downloaded from the [GEO database]
+(https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi) (melanoma (accession code:GSE72056), head and neck squamous cell carcinomas (HNSCC) (accession code: GSE103322), and  colorectal cancer (CRC) (accession code: GSE81861)).
 ## Package Environment
 Install Python 3.9.15 for running this code. And these packages should be satisfied:
 * seaborn == 0.12.0
