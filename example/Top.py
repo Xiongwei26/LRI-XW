@@ -4,14 +4,15 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Modify the following parameters as needed.
-# ---------------------------------
+# -----------------------------------------------
 cancer = r'melanoma'  # File directory
 cell_type = 6   # Modify the number of cell types here, such as melanoma ->6, colorectal cancer ->7
 top = 3  # The number of top.
 # Provide heat map X index names, from relevant cancer type 0 to 123456., and from 12345... to relevant cancer type 0 (The automatic generation of the Y index) (see example)
-X_tick = pd.read_csv(cancer + "\Three\TOP\\X_ticklabels.csv",header=None, index_col=None)
+X_tick = pd.read_csv("example\X_ticklabels.csv", header=None, index_col=None)
 print(X_tick)
-# ---------------------------------
+
+# -----------------------------------------------
 cell_cell_num = cell_type * 2
 data2 = []
 top_three = pd.DataFrame()
