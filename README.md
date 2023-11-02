@@ -10,8 +10,8 @@
 ## Package Environment
 Install Python 3.9.15 for running this code. And these packages should be satisfied:
 * seaborn == 0.12.0
-* pandas == 1.5.3
-* numpy == 1.19.5
+* pandas >= 1.5.3
+* numpy >= 1.19.5
 * scikit-learn == 1.0.1
 * matplotlib == 0.1.5
 * xgboost == 1.6.2
