@@ -9,11 +9,11 @@
 * Single-cell RNA sequencing data can be downloaded from the [GEO database](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi). (melanoma (accession code:GSE72056), head and neck squamous cell carcinomas (HNSCC) (accession code: GSE103322), and  colorectal cancer (CRC) (accession code: GSE81861)).
 ## Package Environment
 Install Python 3.9.15 for running this code. And these packages should be satisfied:
-* seaborn == 0.12.0
+* seaborn >= 0.12.0
 * pandas >= 1.5.3
-* numpy >= 1.19.5
-* scikit-learn == 1.0.1
-* matplotlib == 0.1.5
+* numpy >= 1.25.2
+* scikit-learn >= 1.2.1
+* matplotlib >= 3.7.2
 * xgboost == 1.6.2
 * lightgbm == 3.3.0
 * KTBoost == 0.2.2
